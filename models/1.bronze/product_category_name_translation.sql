@@ -1,0 +1,3 @@
+select product_category_name as product_category_name,
+product_category_name_english as product_category_name_english
+from {{source('dex-dsm-production-dex_landing','insper_data_4__postgres_ecommerce_db_product_category_name_translation')}}
